@@ -209,7 +209,21 @@ h2 { color: #edf6fc; }
 .input-param-row .field { margin: 0; min-width: 0; }
 .input-param-row > .btn { min-height: 40px; }
 .input-param-row input[readonly] { color: #adc9d9; background: #1c3246; }
+.mcp-domain-editor { min-width: 0; margin: 3px 0 18px; padding: 16px; border: 1px solid #3e5c73; border-radius: 10px; background: #11283b; }
+.mcp-domain-editor legend { padding: 0 7px; color: #e9f6ff; font-size: 14px; font-weight: 700; }
+.mcp-domain-editor > .field-help { display: block; margin-bottom: 13px; }
+.mcp-domain-options { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 10px; }
+.mcp-domain-option { display: flex; gap: 10px; align-items: flex-start; min-width: 0; padding: 12px; border: 1px solid #3e5c73; border-radius: 9px; background: #182f43; cursor: pointer; }
+.mcp-domain-option input { flex: 0 0 auto; margin: 3px 0 0; accent-color: #64cbed; }
+.mcp-domain-option span { display: grid; gap: 4px; min-width: 0; }
+.mcp-domain-option strong { color: #e9f6ff; font-size: 12px; }
+.mcp-domain-option small { color: #adc9d9; font-size: 11px; }
+.skill-list { display: grid; gap: 9px; }
+.skill-item { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 12px 13px; border: 1px solid #3e5c73; border-radius: 9px; background: #11283b; }
+.skill-item strong { color: #e9f6ff; font-size: 13px; overflow-wrap: anywhere; }
+.skill-item .cell-sub { overflow-wrap: anywhere; }
 @media (max-width: 700px) { .input-param-row { grid-template-columns: repeat(2, minmax(0, 1fr)); } .input-param-row > .btn { justify-self: start; } }
+@media (max-width: 700px) { .mcp-domain-options { grid-template-columns: 1fr; } }
 .erp-domain-config { margin: 22px 0 0; padding: 16px; border: 1px solid #3e5c73; border-radius: 10px; background: #11283b; }
 .erp-domain-config legend { padding: 0 7px; color: #e9f6ff; font-size: 14px; font-weight: 700; }
 .erp-domain-config .field-help { margin: 0 0 12px; }
