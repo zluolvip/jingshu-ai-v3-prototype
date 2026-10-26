@@ -1,0 +1,15 @@
+node_modules/
+.DS_Store
+screenshots/
+preview-*.png
+README.md
+organization-identity-design.md
+assistant.js
+assistant.css
+usage.js
+usage.css
+.env
+.env.*
+credentials.json
+*.pem
+*.key
